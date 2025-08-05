@@ -3,7 +3,7 @@ services:
     name: finance-backend
     env: docker
     plan: free
-    repo: https://github.com/your-username/your-repo-name
+    repo: https://github.com/sree-luxx/FinanceTracker.git
     dockerContext: ./Backend/finance-tracker-backend
     dockerfilePath: Dockerfile
     envVars:
@@ -22,7 +22,7 @@ services:
     name: finance-frontend
     env: docker
     plan: free
-    repo: https://github.com/your-username/your-repo-name
+    repo: https://github.com/sree-luxx/FinanceTracker.git
     dockerContext: ./Frontend/finance-tracker-ui
     dockerfilePath: Dockerfile
     dependsOn:
